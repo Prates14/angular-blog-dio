@@ -8,11 +8,14 @@
 }
 
 .content__description {
-    margin-top: 15px;
+    margin-top: 30px;
+    padding-bottom: 100px;
+    width: 1000px;
+    text-align: center;
 }
 
 .content__description > p {
-    color: gray;
+    color: rgb(145, 145, 145);
 }
 
 .content__cover > img {
@@ -21,4 +24,5 @@
     height: 300px;
     border: 5px solid #ccc;
     border-radius: 5px;
+    position: relative;
 }

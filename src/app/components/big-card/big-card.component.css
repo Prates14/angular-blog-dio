@@ -11,7 +11,7 @@
 
 .big-card__title > h1 {
     font-size: 25px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .big-card__description > p {
@@ -22,4 +22,6 @@
 .big-card__photo > img {
     width: 100%;
     min-width: 500px;
+    box-shadow: rgba(45, 136, 255, 0.589) 0px 25px 50px -12px;
+    position: relative;
 }

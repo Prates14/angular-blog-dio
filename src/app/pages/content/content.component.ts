@@ -13,6 +13,7 @@ export class ContentComponent implements OnInit {
   contentTitle: string =""
   contentDescription: string =""
   private id: string | null ="0"
+  corFundo: string =""
 
   constructor(private route:ActivatedRoute) {}
 
@@ -30,5 +31,6 @@ export class ContentComponent implements OnInit {
     this.contentTitle = result.title
     this.contentDescription = result.description
     this.photoCover = result.photoCover
+    this.corFundo = result.corFundo
   }
 }

@@ -6,6 +6,7 @@
 .container__small-card-container {
     display: flex;
     flex-direction: row;
+    box-shadow: rgba(63, 63, 63, 0.589) 0px 50px 500px -12px;
 }
 
 .small-card__photo > img {
